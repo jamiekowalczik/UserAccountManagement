@@ -12,7 +12,7 @@ Param(
    [String[]]$SecondaryGroup = @(),
    [String]$Query = "",
    [Bool]$ReportOnly = $true,
-   [String]$OracleModule = "..\Modules\ODP.NET_Managed121012_x64\odp.net\managed\common\Oracle.ManagedDataAccess.dll",
+   [String]$OracleModule = ".\Modules\ODP.NET_Managed121012_x64\odp.net\managed\common\Oracle.ManagedDataAccess.dll",
    [Bool]$OutputResults = $false,
    [String]$OutputResultsFile = "output.txt",
    [String]$InputCSVFile = "db.csv",
