@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<body style="" lang="EN-US" link="black" vlink="purple">
+<div class="Section1">
+<h1>Oracle Data Provider for .NET, Managed Driver 12.1.0.1.0</h1>
+<div class="MsoNormal" style="text-align: center;" align="center">
+<hr align="center" size="1" width="100%"></div>
+<p>
+<big style="font-weight: bold;"><big><big>Xcopy Installation Guide</big></big></big></p>
+<p><b><span style="font-size: 13pt;">Release 12.1.0.1.0 Production<br>
+</span></b></p>
+<h4>August 2013</h4>
+<h4>Copyright (c) Oracle Corporation 2013</h4>
+<p>This document provides information regarding the contents on the zip file and the 
+    steps required to setup ODP.NET, Managed Driver xcopy installation.</p>
+
+<h2><a name="general"></a>General Information</h2>
+    <ol>
+        <li>The files of this zip file is NOT to be installed on top of an existing Oracle 
+            Universal Installer (OUI) based Oracle Home installation.<br /><br /></li>
+        <li>After unzipping the files, the product must be 
+            configured by executing the approporiate configure.bat.<br />
+            <br /> </li>
+    </ol>
+    <a name="install"></a><h2>Installation Instructions</h2>
+    <ol>
+        <li>Download the ODP.NET, Managed Driver (xcopy version) zip file to a directory for staging.</li>
+        <li>Unzip ODP.NET, Managed Driver (xcopy version) zip file to expand the contents to 
+            your target install location.<br /><br /> The following 
+            directories will be created:<br /><br /> 
+            a) 
+            odp.net - ODP.NET, Managed Driver files<br /> b) network - sample .ORA files (i.e. tnsnames.ora and sqlnet.ora)<br /><br /> </li>
+        <li>Execute the appropriate configure.bat to complete ODP.NET, Managed Driver setup. The 
+            configure.bat files are located in the following directories:<br /><br /> 
+    <ul>
+        <li>For 32-bit .NET Framework: .\odp.net\managed\x86</li>
+        <li>For 64-bit .NET Framework: .\odp.net\managed\x64</li>    
+    </ul>
+    <br />
+    ODP.NET, Managed Driver already includes distributed transaction enlistment and commit services natively for distributed transactions. 
+    The OraMTS README contains additional information on distributed transaciton recovery service setup with ODP.NET, Managed Driver.<br /><br />
+
+    Read the "Oracle Data Provider for .NET Developer's Guide" documentation for more information on setup and use of ODP.NET, Managed Driver.<br /><br />
+
+    Each directory contains an unconfigure.bat if ODP.NET, Managed Driver needs to be unconfigured from the machine. 
+        </li>
+    </ol>
+    </div>
+</body>
+</html>
